@@ -66,5 +66,5 @@ module RackTimeoutIssue10
     config.assets.version = '1.0'
   end
 end
-Rack::Timeout.timeout = 10
+Rack::Timeout.timeout = 5
 
